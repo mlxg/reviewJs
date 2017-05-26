@@ -8,6 +8,7 @@
 
 function foo(a, b) {
     return a + b
+
 }
 // foo.apply(m, [5]);
 // foo.call(m, 5);
