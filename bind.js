@@ -16,13 +16,13 @@ function foo(a, b) {
 // var foo1 = foo.bind(m, 5)
 // foo1()
 
-var fun = foo.bind(fun, 5,2)()
+var fun = foo.bind(fun, 5, 2)()
 
 // =====================
 
 
 var m = {
-    "x" : 1
+    "x": 1
 };
 function foo(y) {
     alert(this.x + y);
