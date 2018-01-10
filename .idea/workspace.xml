@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2767091e-e493-4cc5-8c72-dd592170024d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/old/apply.js" afterPath="$PROJECT_DIR$/old/apply.js" />
-      <change beforePath="$PROJECT_DIR$/old/bind.js" afterPath="$PROJECT_DIR$/old/bind.js" />
-      <change beforePath="$PROJECT_DIR$/old/call.js" afterPath="$PROJECT_DIR$/old/call.js" />
-      <change beforePath="$PROJECT_DIR$/old/new.js" afterPath="$PROJECT_DIR$/old/new.js" />
-      <change beforePath="$PROJECT_DIR$/old/this.js" afterPath="$PROJECT_DIR$/old/this.js" />
-      <change beforePath="$PROJECT_DIR$/old/作用域.js" afterPath="$PROJECT_DIR$/old/作用域.js" />
-      <change beforePath="$PROJECT_DIR$/old/作用域链.js" afterPath="$PROJECT_DIR$/old/作用域链.js" />
-      <change beforePath="$PROJECT_DIR$/old/原型模式.js" afterPath="$PROJECT_DIR$/old/原型模式.js" />
-      <change beforePath="$PROJECT_DIR$/old/原型连.js" afterPath="$PROJECT_DIR$/old/原型连.js" />
-      <change beforePath="$PROJECT_DIR$/old/原型链继承.js" afterPath="$PROJECT_DIR$/old/原型链继承.js" />
-      <change beforePath="$PROJECT_DIR$/old/参数对象.js" afterPath="$PROJECT_DIR$/old/参数对象.js" />
-      <change beforePath="$PROJECT_DIR$/old/变量对象.js" afterPath="$PROJECT_DIR$/old/变量对象.js" />
-      <change beforePath="$PROJECT_DIR$/old/工厂模式.js" afterPath="$PROJECT_DIR$/old/工厂模式.js" />
-      <change beforePath="$PROJECT_DIR$/old/执行上下文栈.js" afterPath="$PROJECT_DIR$/old/执行上下文栈.js" />
-      <change beforePath="$PROJECT_DIR$/old/数组对象与参数.js" afterPath="$PROJECT_DIR$/old/数组对象与参数.js" />
-      <change beforePath="$PROJECT_DIR$/old/构造函数模式.js" afterPath="$PROJECT_DIR$/old/构造函数模式.js" />
-      <change beforePath="$PROJECT_DIR$/old/闭包.js" afterPath="$PROJECT_DIR$/old/闭包.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <ignored path=".idea/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -32,271 +14,39 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mianshiti/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="await.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/await.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="数组对象与参数.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/old/数组对象与参数.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="作用域.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/old/作用域.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="事件循环.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/事件循环.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="垂直居中.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/垂直居中.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="计时器.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mianshiti/计时器.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="打印章节标题 map.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mianshiti/打印章节标题 map.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="百分比换算器.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mianshiti/百分比换算器.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="清除两边空格.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mianshiti/清除两边空格.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>var reg = new RegExp(&quot;(^|&amp;)&quot; + name + &quot;=([^&amp;]*)(&amp;|$</find>
-      <find>handlerr</find>
-      <find />
-      <find>!=</find>
-      <find>fadein</find>
-      <find>fadeIn</find>
-      <find>\n</find>
-      <find>\n\n</find>
-      <find>alert</find>
-      <find>buttonsShow</find>
-      <find>var</find>
-      <find>==</find>
-      <find>callbacks</find>
-      <find>[name</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>handler</replace>
-      <replace>!==</replace>
-      <replace>let</replace>
-      <replace>console.log</replace>
-      <replace>const</replace>
-      <replace>===</replace>
-      <replace>callBack</replace>
-    </replaceStrings>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="jon" />
         <option value="choi" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/demo/闭包实例.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/demo/继承.js" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/闭包.js" />
-        <option value="$PROJECT_DIR$/执行上下文栈.js" />
-        <option value="$PROJECT_DIR$/作用域.js" />
-        <option value="$PROJECT_DIR$/003.html" />
-        <option value="$PROJECT_DIR$/继承.js" />
-        <option value="$PROJECT_DIR$/柯里化.js" />
-        <option value="$PROJECT_DIR$/demo/继承.js" />
-        <option value="$PROJECT_DIR$/demo/闭包实例.js" />
-        <option value="$PROJECT_DIR$/demo/video.html" />
-        <option value="$PROJECT_DIR$/demo/首字母大写.js" />
-        <option value="$PROJECT_DIR$/demo/冒泡排序算法.js" />
-        <option value="$PROJECT_DIR$/demo/json转换.js" />
-        <option value="$PROJECT_DIR$/demo/阻止冒泡/默认.js" />
-        <option value="$PROJECT_DIR$/demo/冒泡捕获.html" />
-        <option value="$PROJECT_DIR$/demo/bubble.html" />
-        <option value="$PROJECT_DIR$/demo/构造函数.js" />
-        <option value="$PROJECT_DIR$/demo/原型.js" />
-        <option value="$PROJECT_DIR$/demo/继承（基础）.js" />
-        <option value="$PROJECT_DIR$/demo/async/await.js" />
-        <option value="$PROJECT_DIR$/demo/高级闭包例子.js" />
-        <option value="timers.js" />
-        <option value="internal/inspector_async_hook.js" />
-        <option value="async_hooks.js" />
-        <option value="$PROJECT_DIR$/demo/闭包题目.js" />
-        <option value="$PROJECT_DIR$/demo/解析url.js" />
-        <option value="$PROJECT_DIR$/demo/Promise中的数据传递.js" />
-        <option value="$PROJECT_DIR$/demo/循环闭包666.js" />
-        <option value="$PROJECT_DIR$/demo/promise.js" />
-        <option value="$PROJECT_DIR$/demo/redux例子.js" />
         <option value="$PROJECT_DIR$/bind.js" />
-        <option value="$PROJECT_DIR$/this.js" />
-        <option value="$PROJECT_DIR$/demo/js封装例子.js" />
-        <option value="$PROJECT_DIR$/demo/map.js" />
-        <option value="$PROJECT_DIR$/demo/index.js" />
-        <option value="$PROJECT_DIR$/Mobile/worker.html" />
-        <option value="$PROJECT_DIR$/Mobile/index.html" />
-        <option value="$PROJECT_DIR$/基础练习/indx.js" />
-        <option value="$PROJECT_DIR$/demo/递归.js" />
-        <option value="$PROJECT_DIR$/Mobile/把数字转换成中文 .js" />
-        <option value="$PROJECT_DIR$/demo/模板字符串.html" />
-        <option value="$PROJECT_DIR$/demo/轮播图.html" />
-        <option value="$PROJECT_DIR$/demo/index.html" />
-        <option value="$PROJECT_DIR$/Mobile/index.js" />
-        <option value="$PROJECT_DIR$/mianshiti/反转二叉树.js" />
-        <option value="$PROJECT_DIR$/mianshiti/回调.js" />
-        <option value="$PROJECT_DIR$/mianshiti/去重.js" />
-        <option value="$PROJECT_DIR$/mianshiti/reduce叠加.js" />
-        <option value="$PROJECT_DIR$/mianshiti/转换驼峰命名.js" />
-        <option value="$PROJECT_DIR$/mianshiti/获取文本的高度 .js" />
-        <option value="$PROJECT_DIR$/mianshiti/数字加逗号.js" />
-        <option value="$PROJECT_DIR$/mianshiti/index.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1855" />
-    <option name="height" value="1084" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Code style issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Control flow issuesJavaScript</id>
-          </State>
-          <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>JavaScript validity issuesJavaScript</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>BadExpressionStatementJS</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="54" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -310,55 +60,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="reviewJs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reviewJs" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewJs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewJs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="reviewJs">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../starOfficeWeb" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="" />
-    <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="settings.editor.splitter.proportion" value="0.30179754" />
-    <property name="node.js.path.for.package.jscs" value="project" />
-    <property name="node.js.detected.package.jscs" value="true" />
-    <property name="node.js.selected.package.jscs" value="" />
-    <property name="last.edited.regexp" value="Sample Text" />
-    <property name="jsx.switch.disabled" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mianshiti" />
-      <recent name="$PROJECT_DIR$/demo" />
-      <recent name="$PROJECT_DIR$/Mobile" />
-      <recent name="C:\Users\Rhee\WebstormProjects\reviewJs\demo" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/demo" />
-      <recent name="$PROJECT_DIR$/old" />
-      <recent name="C:\Users\Rhee\WebstormProjects\reviewJs\demo" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -372,25 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.await.js">
-    <configuration name="数字加逗号.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="数字加逗号.js" working-dir="$PROJECT_DIR$/mianshiti" />
-    <configuration name="事件循环.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="事件循环.js" working-dir="$PROJECT_DIR$/demo" />
-    <configuration name="回调.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="回调.js" working-dir="$PROJECT_DIR$/mianshiti" />
-    <configuration name="继承（基础）.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="继承（基础）.js" working-dir="$PROJECT_DIR$/demo" />
-    <configuration name="闭包.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="闭包.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="清除两边空格.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="清除两边空格.js" working-dir="$PROJECT_DIR$/mianshiti" />
-    <configuration name="转换驼峰命名.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="转换驼峰命名.js" working-dir="$PROJECT_DIR$/mianshiti" />
-    <configuration name="覆盖样式属性.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="覆盖样式属性.js" working-dir="$PROJECT_DIR$/mianshiti" />
-    <configuration name="执行上下文栈.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="执行上下文栈.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="递归.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="递归.js" working-dir="$PROJECT_DIR$/demo" />
-    <configuration name="作用域.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="作用域.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="作用域.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="作用域.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="继承.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="继承.js" working-dir="$PROJECT_DIR$/demo" />
-    <configuration name="构造函数.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="构造函数.js" working-dir="$PROJECT_DIR$/demo" />
-    <configuration name="闭包题目.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="闭包题目.js" working-dir="$PROJECT_DIR$/demo" />
-    <configuration name="矩阵碰撞.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="矩阵碰撞.js" working-dir="$PROJECT_DIR$/mianshiti" />
-    <configuration name="await.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="await.js" working-dir="$PROJECT_DIR$/demo" />
-    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/mianshiti" />
+  <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -428,6 +147,9 @@
       <option name="filePath" />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -448,34 +170,9 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.index.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.数字加逗号.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.事件循环.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.await.js" />
-    </list>
-    <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.await.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.事件循环.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.index.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.数字加逗号.js" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -485,100 +182,6 @@
       <option name="presentableId" value="Default" />
       <updated>1495827871996</updated>
       <workItem from="1495827873189" duration="930000" />
-      <workItem from="1496832162740" duration="1626000" />
-      <workItem from="1496851662559" duration="584000" />
-      <workItem from="1497125469281" duration="143000" />
-      <workItem from="1498924187072" duration="83000" />
-      <workItem from="1498924295390" duration="999000" />
-      <workItem from="1498978101116" duration="2727000" />
-      <workItem from="1500455969684" duration="29000" />
-      <workItem from="1500456300687" duration="7146000" />
-      <workItem from="1500907962080" duration="1092000" />
-      <workItem from="1502475347572" duration="18000" />
-      <workItem from="1502475445887" duration="613000" />
-      <workItem from="1503653926189" duration="102000" />
-      <workItem from="1504204558905" duration="111000" />
-      <workItem from="1504207629367" duration="2903000" />
-      <workItem from="1504519419457" duration="1199000" />
-      <workItem from="1505202296672" duration="1433000" />
-      <workItem from="1505658171667" duration="140000" />
-      <workItem from="1505658343555" duration="356000" />
-      <workItem from="1505659798010" duration="914000" />
-      <workItem from="1505908081668" duration="620000" />
-      <workItem from="1505917670140" duration="11528000" />
-      <workItem from="1507377357097" duration="1606000" />
-      <workItem from="1507559689483" duration="3285000" />
-      <workItem from="1508056314650" duration="2228000" />
-      <workItem from="1508387603796" duration="2816000" />
-      <workItem from="1508475100551" duration="1197000" />
-      <workItem from="1508565633454" duration="1218000" />
-      <workItem from="1508586937997" duration="1969000" />
-      <workItem from="1508604742317" duration="5863000" />
-      <workItem from="1508818194056" duration="718000" />
-      <workItem from="1508904960258" duration="7367000" />
-      <workItem from="1509256393738" duration="2935000" />
-      <workItem from="1509560128205" duration="198000" />
-      <workItem from="1509633827739" duration="28779000" />
-      <workItem from="1510037814118" duration="8135000" />
-      <workItem from="1510109835618" duration="1027000" />
-      <workItem from="1510110892876" duration="149000" />
-      <workItem from="1510111082586" duration="367000" />
-      <workItem from="1510111560018" duration="21417000" />
-      <workItem from="1510213009936" duration="9959000" />
-      <workItem from="1510381760945" duration="2739000" />
-      <workItem from="1510505129334" duration="2265000" />
-      <workItem from="1510652045576" duration="1207000" />
-      <workItem from="1510743797413" duration="1204000" />
-      <workItem from="1510774627677" duration="12010000" />
-      <workItem from="1511249975486" duration="27681000" />
-      <workItem from="1511301162006" duration="1217000" />
-      <workItem from="1511308903189" duration="1133000" />
-      <workItem from="1511340224661" duration="2649000" />
-      <workItem from="1511689662708" duration="3131000" />
-      <workItem from="1511850903071" duration="3449000" />
-      <workItem from="1511899073286" duration="10485000" />
-      <workItem from="1511945266199" duration="75000" />
-      <workItem from="1511945352673" duration="8296000" />
-      <workItem from="1511974850455" duration="29000" />
-      <workItem from="1512029611438" duration="6224000" />
-      <workItem from="1512044062800" duration="1945000" />
-      <workItem from="1512050335832" duration="27576000" />
-      <workItem from="1512084942621" duration="53000" />
-      <workItem from="1512085205456" duration="11000" />
-      <workItem from="1512088029023" duration="19000" />
-      <workItem from="1512332016900" duration="770000" />
-      <workItem from="1512333563606" duration="119000" />
-      <workItem from="1512334485093" duration="46000" />
-      <workItem from="1512334756754" duration="1946000" />
-      <workItem from="1512336715777" duration="2057000" />
-      <workItem from="1512339967968" duration="261000" />
-      <workItem from="1512340241016" duration="437000" />
-      <workItem from="1512370493157" duration="3451000" />
-      <workItem from="1512391474895" duration="4283000" />
-      <workItem from="1512397444708" duration="409000" />
-      <workItem from="1512397882658" duration="454000" />
-      <workItem from="1512398347323" duration="690000" />
-      <workItem from="1512399234424" duration="890000" />
-      <workItem from="1512400466481" duration="4745000" />
-      <workItem from="1512410173336" duration="468000" />
-      <workItem from="1512505668272" duration="821000" />
-      <workItem from="1512634434642" duration="6561000" />
-      <workItem from="1512667324503" duration="6561000" />
-      <workItem from="1512723302706" duration="6725000" />
-      <workItem from="1513069611778" duration="6192000" />
-      <workItem from="1513245985696" duration="1244000" />
-      <workItem from="1513321518240" duration="8125000" />
-      <workItem from="1513343219864" duration="11608000" />
-      <workItem from="1513448990339" duration="106000" />
-      <workItem from="1513803877201" duration="14788000" />
-      <workItem from="1513886296651" duration="13377000" />
-      <workItem from="1514189448304" duration="7523000" />
-      <workItem from="1514370804399" duration="33669000" />
-      <workItem from="1514967859853" duration="18380000" />
-      <workItem from="1515476282353" duration="8990000" />
-      <workItem from="1515512604612" duration="604000" />
-      <workItem from="1515559532501" duration="10200000" />
-      <workItem from="1515591526326" duration="1423000" />
     </task>
     <task id="LOCAL-00001" summary="mod:add">
       <created>1495828428695</created>
@@ -594,61 +197,46 @@
       <option name="project" value="LOCAL" />
       <updated>1495828787466</updated>
     </task>
-    <task id="LOCAL-00003" summary="mod:add">
-      <created>1496832846053</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1496832846053</updated>
-    </task>
-    <task id="LOCAL-00004" summary="mod:add">
-      <created>1515593372101</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1515593372101</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="427850000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="930000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1857" height="1092" extended-state="6" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17839335" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32838982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3263158" sideWeight="0.5031645" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273305" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33074793" sideWeight="0.49782136" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498615" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32423925" sideWeight="0.49683544" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38116345" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -656,7 +244,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="BEK_SORT_TYPE" value="1" />
               <option name="RECENTLY_FILTERED_USER_GROUPS">
                 <collection />
               </option>
@@ -685,413 +272,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="mod:add" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/old/构造函数模式.js</url>
-          <line>9</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/old/执行上下文栈.js</url>
-          <line>5</line>
-          <option name="timeStamp" value="155" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/old/继承.js</url>
-          <line>16</line>
-          <option name="timeStamp" value="170" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/old/柯里化.js</url>
-          <line>4</line>
-          <option name="timeStamp" value="174" />
-        </line-breakpoint>
-      </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="366" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo/高级闭包例子.js">
+    <entry file="file://$PROJECT_DIR$/bind.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/闭包题目.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/闭包实践.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/闭包实例.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/闭包.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/封装map方法.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/genenator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/call继承.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/$.fn.extend.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础练习/indx.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/递归.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/js封装例子.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/解析字串.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/数组插入拼接.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/noConflict.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/模板字符串.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="71" lean-forward="false" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/轮播图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="147" column="36" lean-forward="false" selection-start-line="147" selection-start-column="36" selection-end-line="147" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/不用循环生成数组.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es6.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="14223" column="4" lean-forward="false" selection-start-line="14223" selection-start-column="4" selection-end-line="14223" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="46" selection-start-column="84" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/循环调节列表.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/把数字转换成中文 .js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/间隔取值(递归).js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/web worker.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/DOM 元素类名操作.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/js 数据类型的判断.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/矩阵碰撞.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/回调.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/归并排序.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/localStorage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/不会报错.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/去重.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/反转二叉树.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/reduce叠加.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/转换驼峰命名.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/获取文本的高度 .js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/react 开关屏幕.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/数字加逗号.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/覆盖样式属性.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/清除两边空格.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/百分比换算器.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/打印章节标题 map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/计时器.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/事件循环.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/垂直居中.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/await.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/数组对象与参数.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/作用域.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="226">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding />
         </state>
       </provider>
