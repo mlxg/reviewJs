@@ -1,3 +1,14 @@
+class Screen extends Component {
+    static defaultProps = {showContent: '无内容'};
+
+    render() {
+        const showContent = this.props.showContent;
+        return (
+            <div className='screen'>{showContent}</div>
+        );
+    }
+}
+
 class Computer extends Component {
     constructor() {
         super();
@@ -20,13 +31,3 @@ class Computer extends Component {
     }
 }
 
-class Screen extends Component {
-    static defaultProps = {showContent: '无内容'};
-
-    render() {
-        const showContent = this.props.showContent;
-        return (
-            <div className='screen'>{showContent}</div>
-        );
-    }
-}
