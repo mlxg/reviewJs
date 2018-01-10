@@ -4,12 +4,12 @@
  */
 
 var foo = {
-    value: 1,
+    value: 1
 
 }
 
 function bar() {
-    this.value
+    return this.value
 }
 
 // foo.bar()

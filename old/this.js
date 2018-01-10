@@ -37,18 +37,18 @@
 
 // =====================
 
-function cat() {
+function Cat() {
 
 }
 
-cat.prototype = {
+Cat.prototype = {
     food: 'fish',
     say: function () {
-        this.food
+        console.log(this.food);
     }
-}
+};
 
-var b = new cat()
-b.say()
-var ed = new cat()
-b.say.call(ed,'s')
+const b = new Cat();
+b.say();
+const ed = new Cat();
+b.say.call(ed, 's');

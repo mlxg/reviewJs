@@ -11,4 +11,3 @@ function createPerson(name) {
     return o
 }
 var person1 = createPerson('kevin')
-person1.name

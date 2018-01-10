@@ -14,8 +14,8 @@ function Child(name) {
     Parent.call(this,name)
 }
 
-Child.prototype = new Parent()
+Child.prototype = new Parent();
 
-var child = new Child('k')
+var child = new Child('k');
 
-child.getName()
+child.getName();

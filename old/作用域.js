@@ -5,7 +5,7 @@
 var value =1
 
 function foo() {
-    value
+    return value
 }
 
 function bar() {
@@ -14,3 +14,5 @@ function bar() {
 }
 
 bar()
+
+console.log(value)
