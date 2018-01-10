@@ -1,49 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2767091e-e493-4cc5-8c72-dd592170024d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/$.fn.extend.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/Promise中的数据传递.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/await.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/bubble.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/call继承.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/catch.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/const.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/genenator.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/json转换.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/js封装例子.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/let.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/map.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/promise.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/promise封装ajax.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/redux例子.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/video.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/事件循环.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/作用域链.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/冒泡排序算法.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/原型.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/垂直居中.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/委托.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/封装map方法.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/循环调节列表.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/循环闭包666.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/模板字符串.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/正则.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/继承.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/获取DOM索引.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/解析url.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/设置cookie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/轮播图.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/递归.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/闭包.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/闭包实践.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/闭包题目.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/阻止冒泡.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/面积题.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/首字母大写.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/demo/高级闭包例子.js" />
+    <list default="true" id="2767091e-e493-4cc5-8c72-dd592170024d" name="Default" comment="mod:add">
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/异步解决方案.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/mianshiti/index.js" afterPath="$PROJECT_DIR$/mianshiti/index.js" />
     </list>
@@ -62,8 +21,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mianshiti/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="248">
+              <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -74,6 +33,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="jon" />
         <option value="choi" />
       </list>
     </option>
@@ -146,6 +106,11 @@
               <item name="reviewJs" type="b2602c69:ProjectViewProjectNode" />
               <item name="reviewJs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="reviewJs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reviewJs" type="462c0819:PsiDirectoryNode" />
+              <item name="mianshiti" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -159,6 +124,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mianshiti" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -303,16 +273,24 @@
       <option name="project" value="LOCAL" />
       <updated>1515595303499</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mod:add">
+      <created>1515596321475</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1515596321475</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3564000" />
+    <option name="totallyTimeSpent" value="5516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17839335" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17839335" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -383,21 +361,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mianshiti/解析字串.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mianshiti/数组插入拼接.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/noConflict.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -764,10 +728,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mianshiti/noConflict.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mianshiti/异步解决方案.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mianshiti/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="248">
+          <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
           <folding />
         </state>
       </provider>
