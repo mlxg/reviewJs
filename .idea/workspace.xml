@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2767091e-e493-4cc5-8c72-dd592170024d" name="Default" comment="mod:add">
+    <list default="true" id="2767091e-e493-4cc5-8c72-dd592170024d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/imgs/u=1534748683,838249965&amp;fm=27&amp;gp=0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/imgs/u=430127574,821138291&amp;fm=27&amp;gp=0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/imgs/u=539059231,3649015094&amp;fm=27&amp;gp=0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/imgs/u=803529094,3667395278&amp;fm=27&amp;gp=0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/DOM 元素类名操作.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/js 数据类型的判断.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/localStorage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/noConflict.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/react 开关屏幕.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/reduce叠加.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/web worker.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/不会报错.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/不用循环生成数组.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/去重.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/反转二叉树.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/回调.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/归并排序.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/打印章节标题 map.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/把数字转换成中文 .js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/数字加逗号.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/数组插入拼接.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/清除两边空格.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/百分比换算器.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/矩阵碰撞.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/获取文本的高度 .js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/覆盖样式属性.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/解析字串.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/计时器.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/转换驼峰命名.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mianshiti/间隔取值(递归).js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/old/作用域.js" afterPath="$PROJECT_DIR$/old/作用域.js" />
-      <change beforePath="$PROJECT_DIR$/old/原型链继承.js" afterPath="$PROJECT_DIR$/old/原型链继承.js" />
-      <change beforePath="$PROJECT_DIR$/old/参数对象.js" afterPath="$PROJECT_DIR$/old/参数对象.js" />
-      <change beforePath="$PROJECT_DIR$/old/工厂模式.js" afterPath="$PROJECT_DIR$/old/工厂模式.js" />
-      <change beforePath="$PROJECT_DIR$/old/执行上下文栈.js" afterPath="$PROJECT_DIR$/old/执行上下文栈.js" />
-      <change beforePath="$PROJECT_DIR$/old/构造函数模式.js" afterPath="$PROJECT_DIR$/old/构造函数模式.js" />
-      <change beforePath="$PROJECT_DIR$/old/闭包.js" afterPath="$PROJECT_DIR$/old/闭包.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -193,11 +218,6 @@
               <item name="reviewJs" type="b2602c69:ProjectViewProjectNode" />
               <item name="reviewJs" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="reviewJs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reviewJs" type="462c0819:PsiDirectoryNode" />
-              <item name="old" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -340,21 +360,28 @@
       <option name="project" value="LOCAL" />
       <updated>1495828787466</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mod:add">
+      <created>1515595192569</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1515595192569</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2565000" />
+    <option name="totallyTimeSpent" value="2674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1857" height="1092" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17839335" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17839335" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838982" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3273305" sideWeight="0.50193906" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3273305" sideWeight="0.49806094" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3273305" sideWeight="0.49806094" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33074793" sideWeight="0.49782136" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498615" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32423925" sideWeight="0.49683544" order="9" side_tool="false" content_ui="tabs" />
