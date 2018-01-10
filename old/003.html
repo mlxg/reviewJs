@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<select name="" id="test" onchange="selected()">
+    <option value="0">select</option>
+    <option value="1">text1</option>
+    <option value="2">text2</option>
+</select>
+
+<script>
+
+
+    function _selected() {
+        var m = document.getElementById('test')
+        var index = m.selectedIndex
+        var v = m.options[index].value
+        var t = m.options[index].text
+
+        console.log(t)
+    }
+
+    function selected() {
+        var a = document.getElementById('test')
+        var y = ''
+        for (var i = 0; i < a.length; i++) {
+
+
+            y += a.options[i].text + '\n'
+
+        }
+
+        console.log(y)
+    }
+</script>
+</body>
+</html>

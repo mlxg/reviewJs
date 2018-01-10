@@ -4,7 +4,6 @@
     <list default="true" id="2767091e-e493-4cc5-8c72-dd592170024d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/mianshiti/index.js" afterPath="$PROJECT_DIR$/mianshiti/index.js" />
-      <change beforePath="$PROJECT_DIR$/mianshiti/react 开关屏幕.js" afterPath="$PROJECT_DIR$/mianshiti/react 开关屏幕.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,6 +20,26 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mianshiti/index.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fibonacci_yield.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mianshiti/fibonacci_yield.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mianshiti/index.html">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
@@ -28,11 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="react 开关屏幕.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="react高阶增删数据.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mianshiti/react高阶增删数据.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="react 开关屏幕.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mianshiti/react 开关屏幕.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="324">
+              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -67,8 +96,9 @@
         <option value="$PROJECT_DIR$/old/执行上下文栈.js" />
         <option value="$PROJECT_DIR$/old/构造函数模式.js" />
         <option value="$PROJECT_DIR$/old/作用域.js" />
-        <option value="$PROJECT_DIR$/mianshiti/index.js" />
         <option value="$PROJECT_DIR$/mianshiti/react 开关屏幕.js" />
+        <option value="$PROJECT_DIR$/mianshiti/index.js" />
+        <option value="$PROJECT_DIR$/mianshiti/fibonacci_yield.js" />
       </list>
     </option>
   </component>
@@ -84,11 +114,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="-8" />
-    <option name="width" value="1874" />
-    <option name="height" value="1096" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="70" />
+    <option name="width" value="1858" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -122,6 +151,11 @@
               <item name="reviewJs" type="462c0819:PsiDirectoryNode" />
               <item name="mianshiti" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="reviewJs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reviewJs" type="462c0819:PsiDirectoryNode" />
+              <item name="old" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -135,6 +169,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -153,11 +188,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.index.js">
-    <configuration name="闭包.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="闭包.js" working-dir="$PROJECT_DIR$/old" />
+  <component name="RunManager" selected="Node.js.fibonacci_yield.js">
     <configuration name="执行上下文栈.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="执行上下文栈.js" working-dir="$PROJECT_DIR$/old" />
     <configuration name="构造函数模式.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="构造函数模式.js" working-dir="$PROJECT_DIR$/old" />
     <configuration name="作用域.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="作用域.js" working-dir="$PROJECT_DIR$/old" />
+    <configuration name="fibonacci_yield.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="fibonacci_yield.js" working-dir="$PROJECT_DIR$/mianshiti" />
     <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/mianshiti" />
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
@@ -225,19 +260,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.闭包.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.执行上下文栈.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.构造函数模式.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.作用域.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.index.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.执行上下文栈.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.构造函数模式.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.作用域.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.index.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.fibonacci_yield.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.index.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.作用域.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.构造函数模式.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.执行上下文栈.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.闭包.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.fibonacci_yield.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.index.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.作用域.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.构造函数模式.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.执行上下文栈.js" />
       </list>
     </recent_temporary>
   </component>
@@ -298,11 +333,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515598272715</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="mod:add">
+      <created>1515598753517</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1515598753517</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5994000" />
+    <option name="totallyTimeSpent" value="12203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1857" height="1092" extended-state="6" />
@@ -379,27 +421,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mianshiti/数组插入拼接.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/模板字符串.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="71" lean-forward="false" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/轮播图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="147" column="36" lean-forward="false" selection-start-line="147" selection-start-column="36" selection-end-line="147" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mianshiti/不用循环生成数组.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -754,7 +775,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/index.js">
+    <entry file="file://$PROJECT_DIR$/mianshiti/react 开关屏幕.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mianshiti/react高阶增删数据.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -762,10 +791,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/react 开关屏幕.js">
+    <entry file="file://$PROJECT_DIR$/mianshiti/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mianshiti/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mianshiti/fibonacci_yield.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
           <folding />
         </state>
       </provider>
