@@ -8,7 +8,7 @@
 const initArray = (m, n) => {
     /* TODO */
     let arr = [];
-    const fn = m => {
+    fn = m => {
         if (m > 0) {
             arr.push(n);
             return fn(m - 1);

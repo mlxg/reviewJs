@@ -20,10 +20,9 @@ fibonacci = n => n < 2 ? n : fibonacci(n - 1) + fibonacci(n - 2);
 
 fib = (n) => {
     for (let i = 1; i < n; i++) {
-        if (fibonacci(i) > 1000) return;
+        if (fibonacci(i) > 1000) return;//小于1000的值
         console.log(fibonacci(i));
     }
-
 };
 
 console.log(fibonacci(10));//第10个值
