@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>video</title>
+</head>
+<body>
+<div class="video-player" align="center">
+    <video src="myMove.m4v" poster="poster.jpg"></video>
+</div>
+<script>
+    function playPause() {
+        var myVideo = document.getElementsByTagName('video')[0]
+        if (myVideo.paused) {
+            myVideo.play()
+        } else {
+            myVideo.paused()
+        }
+
+        function makeBig() {
+            var myVideo = document.getElementsByTagName('video')[0]
+            myVideo.height = myVideo.videoHeight * 2
+        }
+
+        function makeNormal() {
+            var myVideo = document.getElementsByTagName('video')[0]
+            myVideo.height = myVideo.videoHeight
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bubble</title>
+    <!--<script-->
+    <!--src="http://code.jquery.com/jquery-3.2.1.js"-->
+    <!--integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="-->
+    <!--crossorigin="anonymous"></script>-->
+</head>
+<body>
+<div id="parent">
+    <button id="child" class="child">click</button>
+    　
+    <ul id="ul">
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+        <li>item6</li>
+    </ul>
+
+    <div id="DV" style="background-color: green; width: 400px; height: 400px;"></div>
+</div>
+<script>
+    //    document.getElementById('parent').addEventListener('click', function (e) {
+    //        console.log(this.id)
+    //    }, true)
+    //
+
+
+
+    //    $("ul").on("mouseover", function (e) {
+    //        $(e.target).css("background-color", "#ddd").siblings().css("background-color", "white");
+    //    })
+
+
+    var ele = document.getElementById('ul')
+    changeColor(ele)
+
+    function changeColor(ul) {
+        ul.addEventListener('mouseover', mo, false);
+        ul.addEventListener('mouseout', ml, false)
+
+        function mo(ev) {
+            var e = ev || window.event
+            var target = e.target || e.srcElement
+            if (target.tagName === "LI") {
+                target.style.fontWeight = 'bold'
+                fadeout(target, 0, 1000)
+
+            }
+        }
+
+        function ml(ev) {
+            var e = ev || window.event
+            var target = e.target || e.srcElement
+            if (target.tagName === "LI") {
+
+                target.style.fontWeight = 'normal'
+                fadein(target, 0, 1000)
+
+            }
+        }
+
+    }
+
+    function fadein(ele, opacity, speed) {
+        if (ele) {
+            var v = ele.style.filter.replace("alpha(opacity=", "").replace(")", "") || ele.style.opacity;
+            v < 1 && (v = v * 100);
+            var count = speed / 1000;
+            var avg = count < 2 ? (opacity / count) : (opacity / count - 1);
+            var timer = null;
+            timer = setInterval(function () {
+                if (v < opacity) {
+                    v += avg;
+                    setOpacity(ele, v);
+                } else {
+                    clearInterval(timer);
+                }
+            }, 500);
+        }
+    }
+
+
+
+</script>
+</body>
+</html>

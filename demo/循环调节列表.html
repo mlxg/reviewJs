@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<ul id='adjustable-list'>
+    <li>
+        <span>1</span>
+        <button class='up'>UP</button>
+        <button class='down'>DOWN</button>
+    </li>
+    <li>
+        <span>2</span>
+        <button class='up'>UP</button>
+        <button class='down'>DOWN</button>
+    </li>
+    <li>
+        <span>3</span>
+        <button class='up'>UP</button>
+        <button class='down'>DOWN</button>
+    </li>
+    <li>
+        <span>4</span>
+        <button class='up'>UP</button>
+        <button class='down'>DOWN</button>
+    </li>
+</ul>
+<script>
+    const initAdjustableList = () => /* TODO */ {
+        const ul = document.getElementById('adjustable-list'),
+            btn = document.getElementsByTagName('button'),
+            lis = document.getElementsByTagName('li'),
+            len = lis.length;
+
+        [...btn].map(d => {
+            d.onclick = e => {
+                [...lis].map((d, i) => {//d是值，i是索引
+                    if (d === e.target.parentNode) {
+                        if (e.target.innerText === 'UP') {//这里UP要大写哦
+                            ul.insertBefore(d, lis[i - 1]);
+                        } else {
+                            ul.insertBefore(d, lis[i + 2 > len ? 0 : i + 2]);//len=4
+
+                        }
+                    }
+                });
+            };
+        });
+    };
+
+    initAdjustableList();
+
+
+</script>
+</body>
+</html>

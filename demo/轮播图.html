@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carousel</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        body {
+            padding: 20px;
+        }
+
+        #container {
+            position: relative;
+            width: 600px;
+            height: 400px;
+            overflow: hidden;
+        }
+
+        #list {
+            position: absolute;
+            z-index: 1;
+            width: 4200px;
+            height: 400px;
+        }
+
+        #list img {
+            float: left;
+            width: 600px;
+            height: 400px;
+        }
+
+        #buttons {
+            position: absolute;
+            left: 250px;
+            bottom: 20px;
+            z-index: 2;
+            height: 10px;
+            width: 100px;
+        }
+
+        #buttons span {
+            float: left;
+            margin-right: 5px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #333;
+            cursor: pointer;
+        }
+
+        #buttons .on {
+            background: orangered;
+        }
+
+        .arrow {
+            position: absolute;
+            top: 180px;
+            z-index: 2;
+            display: none;
+            width: 40px;
+            height: 40px;
+            font-size: 36px;
+            font-weight: bold;
+            line-height: 39px;
+            text-align: center;
+            color: #fff;
+            background-color: RGBA(0, 0, 0, .3);
+            cursor: pointer;
+        }
+
+        .arrow:hover {
+            background-color: RGBA(0, 0, 0, .7);
+        }
+
+        #container:hover .arrow {
+            display: block;
+        }
+
+        #prev {
+            left: 20px;
+        }
+
+        #next {
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="list" style="left: 0;">
+        <img src="../imgs/u=430127574,821138291&fm=27&gp=0.jpg" alt="1">
+        <img src="../imgs/u=803529094,3667395278&fm=27&gp=0.jpg" alt="2">
+        <img src="../imgs/u=539059231,3649015094&fm=27&gp=0.jpg" alt="3">
+        <img src="../imgs/u=1534748683,838249965&fm=27&gp=0.jpg" alt="4">
+    </div>
+    <div id="buttons">
+        <span index="1" class="on"></span>
+        <span index="2"></span>
+        <span index="3"></span>
+        <span index="4"></span>
+    </div>
+    <a href="javascript:" id="prev" class="arrow">&lt;</a>
+    <a href="javascript:" id="next" class="arrow">&gt;</a>
+</div>
+<script>
+    const scroll = () => {
+        const list = document.getElementById('list');
+        const prev = document.getElementById('prev');
+        const next = document.getElementById('next');
+        const buttons = document.getElementById('buttons').getElementsByTagName('span');
+        const container = document.getElementById('container');
+        let index = 1;
+        let timer;
+
+        const animate = (offset) => {//滚动事件
+            const newLeft = parseInt(list.style.left) + offset;
+
+            list.style.left = newLeft + 'px';
+            if (newLeft < -1800) {
+                list.style.left = 0 + 'px';
+            }
+            if (newLeft > 0) {
+                list.style.left = -1800 + 'px';
+            }
+            fadeIn(list);
+        };
+
+        const buttonShow = () => {//按钮显示
+            for (let i = 0; i < buttons.length; i++) {
+                if (buttons[i].className = 'on') {
+                    buttons[i].className = '';
+                }
+                buttons[index - 1].className = 'on';
+
+            }
+        };
+
+        const clickPointer = () => {//按钮点击
+            for (let i = 0; i < buttons.length; i++) {
+                buttons[i].onclick = () => {
+                    const clickIndex = parseInt(buttons[i].getAttribute('index'));
+                    const offset = 600 * (index - clickIndex);
+                    animate(offset);
+                    index = clickIndex;
+                    buttonShow();
+                };
+            }
+        };
+
+        const autoPlay = () => timer = setInterval(() => next.onclick(), 2000);
+        autoPlay();
+
+        prev.onclick = () => {//点击触发
+            index -= 1;
+            if (index < 1) index = 4;
+            buttonShow();
+            animate(600);
+        };
+
+        next.onclick = () => {
+            index += 1;
+            if (index > 4) index = 1;
+            buttonShow();
+            animate(-600);
+        };
+
+        buttons.onclick = clickPointer();//按钮触发
+        container.onmouseover = () => clearInterval(timer);
+        container.onmouseout = autoPlay;
+
+        const fadeIn = (el) => {
+            el.style.opacity = '0.3';
+            el.style.display = '';
+
+            let last;
+            const tick = () => {
+                el.style.opacity = +el.style.opacity + (new Date() - last) / 1000;
+                last = +new Date();
+
+                if (+el.style.opacity < 1) {
+                    (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+                }
+            };
+            tick();
+        };
+    };
+
+    scroll();
+</script>
+</body>
+</html>
