@@ -4,11 +4,11 @@
 
 
 function foo() {
-    bar.apply(this, arguments)
-}
-function bar(a, b, c) {
-    var s = a + b + c
-    return s
+    bar.apply(this, arguments);
 }
 
-foo(1, 2, 3)
+function bar(a, b, c) {
+    return a + b + c;
+}
+
+foo(1, 2, 3);

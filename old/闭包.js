@@ -3,18 +3,16 @@
  * Created by Rhee on 2017/5/26.
  *
  */
-
-var data = []
+const data = [];
 
 for (var i = 0; i < 3; i++) {
     data[i] = (function (i) {
         return function () {
-            return i
-        }
-    })(i)
+            return i;
+        };
+    })(i);
 }
 
-
-data[0]()
-data[1]()
-data[2]()
+data[0]();
+data[1]();
+data[2]();

@@ -1,18 +1,17 @@
 /**
  * Created by Rhee on 2017/5/25.
  */
-
-var value =1
+const value = 1;
 
 function foo() {
-    return value
+    return value;
 }
 
 function bar() {
-    var value= 2
-    foo()
+    const value = 2;
+    console.log(`这里是${foo()}`);
 }
 
-bar()
+bar();
 
-console.log(value)
+console.log(value);

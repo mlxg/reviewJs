@@ -3,11 +3,14 @@
  */
 
 function createPerson(name) {
-    var o = new Object()
-    o.name = name
+    const o = {};
+    o.name = name;
     o.getName = function () {
-        return this.name
-    }
-    return o
+        return this.name;
+    };
+    return o;
 }
-var person1 = createPerson('kevin')
+
+const person1 = createPerson('kevin');
+
+console.log(person1);

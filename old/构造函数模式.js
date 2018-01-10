@@ -3,12 +3,12 @@
  */
 
 function Person(name) {
-    this.name = name
+    this.name = name;
     this.getName = function () {
-        return this.name
-    }
+        return this.name;
+    };
 }
 
-var person1 = new Person('kv')
+const person1 = new Person('kv');
 
-person1
+console.log(person1);

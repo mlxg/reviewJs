@@ -3,19 +3,19 @@
  */
 
 function Parent(name) {
-    this.name = name
+    this.name = name;
 }
 
 Parent.prototype.getName = function () {
-    this.name
-}
+    return this.name;
+};
 
 function Child(name) {
-    Parent.call(this,name)
+    Parent.call(this, name);
 }
 
 Child.prototype = new Parent();
 
-var child = new Child('k');
+const child = new Child('k');
 
 child.getName();
