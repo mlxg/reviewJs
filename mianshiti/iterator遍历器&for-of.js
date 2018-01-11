@@ -53,7 +53,7 @@ console.log(it.next());
 Symbol.iterator方法直接引用数组的Iterator接口。
  */
 
-let iterable = {
+let iterable = {//处理对象
     0: 'a',
     1: 'b',
     2: 'c',
