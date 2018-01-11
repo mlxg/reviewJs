@@ -1,18 +1,18 @@
-function resolveAfter2Seconds(x) {
+function resolveAfter1Seconds(x) {
     return new Promise(resolve => {
         setTimeout(() => {
             resolve(x);
-        }, 2000);
+        }, 1000);
     });
 }
 
 async function f1() {
     try {
-        let z = await Promise.reject(30)
+        await Promise.reject(30);
     } catch (e) {
-        console.log(e)
+        console.log(e);
     }
-    // let x = await resolveAfter2Seconds(10);
+    const x = await resolveAfter1Seconds(10);
     console.log(x); // 10
 }
 

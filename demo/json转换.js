@@ -1,13 +1,15 @@
 function init() {
-    var book = {
+    const book = {
         til: '1',
         name: '2',
         age: '33'
-    }
+    };
 
-    var b=JSON.stringify(book)
+    const b = JSON.stringify(book);
 
-    var c=JSON.parse(b)
-    console.log(b)
+    const c = JSON.parse(b);
+    console.log(b);
+    console.log(c);
 }
-init()
+
+init();

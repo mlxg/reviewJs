@@ -9,3 +9,7 @@ console.log(newArr);
 
 //遍历数组的每一项元素，并且在map的第一个参数（回调函数）
 // 中进行运算处理后返回计算结果。返回一个由所有计算结果组成的新数组。
+
+newArr1 = [1, 2].map(item => item + 1,[]);
+
+console.log(newArr1);

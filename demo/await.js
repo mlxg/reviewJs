@@ -5,13 +5,18 @@ function timer(params) {
             // resolve('resolve');
             reject('reject');
         }, params);
-    })
+    });
 }
+/*
+() => reject('1')等同于resolve
+ */
+timer = params => new Promise((resolve, reject) => setTimeout(resolve, params));
 
 // async/await
 async function fn(params) {
     try {
-        let value = await timer(params);
+        await timer(params);
+        console.log('reject');
     } catch (error) {
         console.log(error);
     }

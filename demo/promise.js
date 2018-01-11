@@ -10,15 +10,15 @@ function fn(want) {
         if (typeof want === 'function') {
             resolve(want);
         } else {
-            reject('TypeError: ' + want + '不是一个函数')
+            reject('TypeError: ' + want + '不是一个函数');
         }
     }).then(function (want) {
         want();
     }).catch(function (err) {
         console.log(err);
-    })
+    });
 }
 
-fn(want)
+fn(want);
 
 // fn('123')

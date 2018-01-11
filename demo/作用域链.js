@@ -22,7 +22,7 @@
 let fn = null;
 
 function foo() {
-    let a = 2;
+    const a = 2;
 
     function innnerFoo() {
         console.log(a);
