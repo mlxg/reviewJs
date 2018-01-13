@@ -1,6 +1,6 @@
 function* fibonacci() {
     let [prev, cur] = [0, 1];
-    for (; ;) {//无限循环
+    while (true) {//无限循环
         [prev, cur] = [cur, prev + cur];
         yield cur;
     }
@@ -27,4 +27,5 @@ fib = (n) => {
 
 console.log(fibonacci(10));//第10个值
 fib(Infinity);//前10个值
+
 
