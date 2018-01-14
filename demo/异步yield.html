@@ -9,9 +9,9 @@
 
     function* main() {
         const result = yield request('http://www.filltext.com?rows=10&f={firstName}');
-        a(result);
         const result1 = yield request('http://www.filltext.com?rows=10&f={firstName}');
         b(result1);
+        a(result);
         //do 别的ajax请求;
     }
 
@@ -39,6 +39,7 @@
             console.log(i.f);
         }
     }
+
 
     function b(data) {
         for (let i of data) {
