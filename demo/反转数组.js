@@ -1,4 +1,4 @@
-for (let i = 10; i <= 10000; i++) {
+for (let i = 10; i <= 1000; i++) {
     const str = i.toString().split('');
     const arr = [];
     for (let j = 0; j < i.toString().length; j++) {

@@ -4,16 +4,21 @@
 
 //函数+变量
 const func = (n) => {
-    if (n <= 1) {
-        return 1;
-    } else {
-        return n * func(n - 1);
-    }
+    // if (n <= 1) {
+    //     return 1;
+    // } else {
+    //     return n * func(n - 1);
+    // }
+
+    return n <= 1 ? 1 : n * func(n - 1);
 };
 
-// console.log(func(5))
+console.log(func(5));
 
-const foo = (n) => {//fibonacci
+/*
+fibonacci函数，爬楼梯一步或两步
+ */
+const foo = (n) => {
     if (n <= 2) {
         return 1;
     } else {
