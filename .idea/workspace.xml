@@ -30,14 +30,26 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/面试总结/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="432">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="前端安全.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/面试总结/前端安全.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="es新特征.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="es新特征.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/面试总结/es新特征.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="638">
@@ -94,16 +106,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
               <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="给url插入参数.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试总结/给url插入参数.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -204,8 +206,8 @@
         <option value="$PROJECT_DIR$/demo/作用域链.js" />
         <option value="/HTML Fragment (模块化原理.js:208).html" />
         <option value="$PROJECT_DIR$/面试总结/模块化原理.js" />
-        <option value="$PROJECT_DIR$/面试总结/index.js" />
         <option value="$PROJECT_DIR$/面试总结/es新特征.js" />
+        <option value="$PROJECT_DIR$/面试总结/index.js" />
       </list>
     </option>
   </component>
@@ -437,7 +439,7 @@
       <workItem from="1516129325677" duration="1971000" />
       <workItem from="1516134971425" duration="12429000" />
       <workItem from="1516212967177" duration="2708000" />
-      <workItem from="1516248364119" duration="30563000" />
+      <workItem from="1516248364119" duration="31780000" />
     </task>
     <task id="LOCAL-00001" summary="mod:add">
       <created>1495828428695</created>
@@ -572,11 +574,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516292149985</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="mod:add">
+      <created>1516297441885</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1516297441885</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129318000" />
+    <option name="totallyTimeSpent" value="130535000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -665,13 +674,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo/Generator函数.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/class继承.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1048,18 +1050,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/面试总结/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/面试总结/es新特征.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="93" column="2" lean-forward="false" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试总结/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试总结/前端安全.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
