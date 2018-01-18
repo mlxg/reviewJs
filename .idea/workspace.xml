@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/面试总结/index.js" line="1" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="2767091e-e493-4cc5-8c72-dd592170024d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/demo/js封装例子.js" afterPath="$PROJECT_DIR$/demo/js封装例子.js" />
-      <change beforePath="$PROJECT_DIR$/demo/url参数.js" afterPath="$PROJECT_DIR$/demo/url参数.js" />
-      <change beforePath="$PROJECT_DIR$/demo/反转数组.js" afterPath="$PROJECT_DIR$/demo/反转数组.js" />
-      <change beforePath="$PROJECT_DIR$/demo/闭包.js" afterPath="$PROJECT_DIR$/demo/闭包.js" />
-      <change beforePath="$PROJECT_DIR$/demo/闭包实例.js" afterPath="$PROJECT_DIR$/demo/闭包实例.js" />
-      <change beforePath="$PROJECT_DIR$/demo/闭包题目.js" afterPath="$PROJECT_DIR$/demo/闭包题目.js" />
-      <change beforePath="$PROJECT_DIR$/mianshiti/index.html" afterPath="$PROJECT_DIR$/mianshiti/index.html" />
-      <change beforePath="$PROJECT_DIR$/mianshiti/index.js" afterPath="$PROJECT_DIR$/mianshiti/index.js" />
-      <change beforePath="$PROJECT_DIR$/mianshiti/primise.js" afterPath="$PROJECT_DIR$/mianshiti/promise.js" />
-      <change beforePath="$PROJECT_DIR$/mianshiti/去重.js" afterPath="$PROJECT_DIR$/mianshiti/去重.js" />
-      <change beforePath="$PROJECT_DIR$/old/002.js" afterPath="$PROJECT_DIR$/mianshiti/addEvent封装.js" />
-      <change beforePath="$PROJECT_DIR$/old/闭包.js" afterPath="$PROJECT_DIR$/old/闭包.js" />
+      <change beforePath="$PROJECT_DIR$/面试总结/index.js" afterPath="$PROJECT_DIR$/面试总结/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,31 +17,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="闭包_保存变量.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试总结/闭包_保存变量.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="作用域链.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/作用域链.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="314">
+              <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/面试总结/index.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="es新特征.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/面试总结/es新特征.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="93" column="2" lean-forward="false" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="常用命令行.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/面试总结/常用命令行.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zepto原理.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/面试总结/zepto原理.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="10" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="10" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="模块化原理.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/面试总结/模块化原理.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="837">
+              <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="缓存.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/面试总结/缓存.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -87,46 +114,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="516">
               <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试总结/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="html5新特性.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试总结/html5新特性.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="css3新特性.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试总结/css3新特性.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="去重.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mianshiti/去重.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -168,9 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/old/原型链继承.js" />
-        <option value="$PROJECT_DIR$/old/原型连.js" />
-        <option value="$PROJECT_DIR$/old/参数对象.js" />
         <option value="$PROJECT_DIR$/old/工厂模式.js" />
         <option value="$PROJECT_DIR$/old/模块化.js" />
         <option value="$PROJECT_DIR$/old/执行上下文栈.js" />
@@ -208,7 +192,6 @@
         <option value="$PROJECT_DIR$/面试总结/给url插入参数.js" />
         <option value="$PROJECT_DIR$/面试总结/事件委托和事件绑定兼容方案.js" />
         <option value="$PROJECT_DIR$/mianshiti/index.html" />
-        <option value="$PROJECT_DIR$/demo/作用域链.js" />
         <option value="$PROJECT_DIR$/demo/递归.js" />
         <option value="$PROJECT_DIR$/demo/闭包实践.js" />
         <option value="$PROJECT_DIR$/面试总结/闭包_保存变量.js" />
@@ -217,8 +200,12 @@
         <option value="$PROJECT_DIR$/mianshiti/去重.js" />
         <option value="$PROJECT_DIR$/面试总结/css3新特性.md" />
         <option value="$PROJECT_DIR$/面试总结/index.html" />
-        <option value="$PROJECT_DIR$/面试总结/index.js" />
         <option value="$PROJECT_DIR$/面试总结/cookie操作.js" />
+        <option value="$PROJECT_DIR$/demo/作用域链.js" />
+        <option value="/HTML Fragment (模块化原理.js:208).html" />
+        <option value="$PROJECT_DIR$/面试总结/模块化原理.js" />
+        <option value="$PROJECT_DIR$/面试总结/index.js" />
+        <option value="$PROJECT_DIR$/面试总结/es新特征.js" />
       </list>
     </option>
   </component>
@@ -450,7 +437,7 @@
       <workItem from="1516129325677" duration="1971000" />
       <workItem from="1516134971425" duration="12429000" />
       <workItem from="1516212967177" duration="2708000" />
-      <workItem from="1516248364119" duration="25550000" />
+      <workItem from="1516248364119" duration="30563000" />
     </task>
     <task id="LOCAL-00001" summary="mod:add">
       <created>1495828428695</created>
@@ -578,11 +565,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516129862138</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="mod:add">
+      <created>1516292149985</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1516292149985</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124305000" />
+    <option name="totallyTimeSpent" value="129318000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -671,41 +665,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo/异步yield.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/yield.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/promise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="32" column="2" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mianshiti/reduce叠加.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/Generator函数.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1023,14 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/作用域链.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/面试总结/给url插入参数.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1055,10 +1006,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/面试总结/index.js">
+    <entry file="file://$PROJECT_DIR$/demo/作用域链.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试总结/缓存.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试总结/模块化原理.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试总结/zepto原理.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="10" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试总结/常用命令行.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试总结/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试总结/es新特征.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="93" column="2" lean-forward="false" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
           <folding />
         </state>
       </provider>
