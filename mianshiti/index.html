@@ -8,6 +8,44 @@
     <title>Document</title>
 </head>
 <body>
+<ul id="parent">
+    <li id="test1">aaaa</li>
+    <li id="test2">aaaa</li>
+    <li id="test3">aaaa</li>
+    <li id="test4">aaaa</li>
+    <li id="test5">aaaa</li>
+    <li id="test6">aaaa</li>
+</ul>
+<script>
+    const addEvent = function (element, type, callback) {
+        if (element.addEventListener) {
+            element.addEventListener(type, callback, false);
+        } else if (element.attachEvent) {
+            element.attachEvent('on' + type, callback);
+        }
+    };
 
+    window.onload = function () {
+        const parent = document.getElementById('parent');
+        addEvent(parent, 'click', function (e) {
+            e = e || window.event;
+            const target = e.target || e.srcElement;
+            if (target.nodeName === 'LI') {
+                console.log(target);
+            }
+        });
+
+        haskell = document.createElement('li');
+        haskell.id = 'haskell';
+        haskell.innerText = 'Haskell';
+
+        parent.appendChild(haskell);
+
+    };
+
+    const jsonp = document.createElement('script');
+    jsonp.src = 'http://e.163.com/jnewsWeather.json?callback=getWeather&cityId=101010100';
+    document.body.insertBefore(jsonp, document.body.lastChild);
+</script>
 </body>
 </html>

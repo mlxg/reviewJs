@@ -1,23 +1,32 @@
-compose = (...args) =>  args.reduceRight((prev, cur) =>(...i) => cur(prev(...i)));
-
-
-compose = (...args) => {
-    const len = args.length;
-    let count = len - 1;
-    let result;
-    return fi = (...arr) => {
-        result = args[count].apply(this, arr);
-        if (count <= 0) {
-            count = len - 1;
-            return result;
-        } else {
-            count--;
-            return fi.call(null, result);
+const name = 'a';
+const json = {
+    name: 'b',
+    jsonName: {
+        name: 'c',
+        getName: function () {
+            this.name
         }
-    };
+
+    }
 };
 
-const greeting = (firstName, lastName) => `hello ${firstName} ${lastName}`;
-const toUpper = str => str.toUpperCase();
-const fn = compose(toUpper, greeting);
-console.log(fn('jack', 'smith'));
+console.log(json.jsonName.getName())
+
+var arr = [1, 2, 3];
+for (var i = 0, j;i<arr.length; j = arr[i++]) {
+    console.log(j);
+}
+
+console.log('---------');
+console.log(i);
+console.log('---------');
+console.log(j);
+console.log('---------');
+
+var a = 100;
+(function(i){
+    var a=i ;
+    console.log(a);
+})(a);
+
+

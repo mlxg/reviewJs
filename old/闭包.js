@@ -5,10 +5,11 @@
  */
 const data = [];
 
-for (var i = 0; i < 3; i++) {
+for (let i = 0; i < 3; i++) {
+
     data[i] = (function (i) {
         return function () {
-            return i;
+            console.log(i)
         };
     })(i);
 }

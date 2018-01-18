@@ -18,5 +18,7 @@ D.prototype.doMouseOver = function (event, element) {
 
 new D('ele');
 
+addEvent()
+
 
 

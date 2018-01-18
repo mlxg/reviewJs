@@ -7,8 +7,14 @@ c = (url) => {
     for (let i = 0; i < arr.length; i++) {
         const d = arr[i].split('=');
         res[d[0]] = d[1];
-    }+
+    }
     console.log(res);
 };
 
 c(url);
+
+function a() {
+    return function (){
+
+    }
+}
