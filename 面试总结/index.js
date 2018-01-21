@@ -1,17 +1,29 @@
-/*
-sql注入
-xss攻击*/
-`SQL注入产生的原因，和栈溢出、XSS等很多其他的攻击方法类似，就是未经检查或者未经充分检查的用户输入数据，意外变成了代码被执行`
+var z = 10;
 
-    `查询参数化或者词法分析`
-    `SQL语句的预编译（prepare）和查询参数绑定功能`;
-'base64编码'
+function foo() {
+    console.log(z);
+}
+
+(function (funArg) {
+    var z = 20;
+    funArg();
+})(foo);
+
+// const b = extend(A, prop);
+
+const extend = (parent, attr) => {
+    child = new Parent()
+
+};
 
 
-// xss 浏览器内部的转玛和解码
+var $ = require('jquery');
+var obj1 = {
+    a: 1,
+    b: { f: { g: 1 } },
+    c: [1, 2, 3]
+};
+var obj2 = $.extend(true, {}, obj1);
+console.log(obj1.b.f === obj2.b.f);
+// false
 
-    `用正则表达式进行转换处理
-
-　　使用正则表达式也是一种常用的处理方式，
-实现原理就是使用替换的方式来实现转码和解码，
-转码时把<>，空格符，&，'，""替换成html编码，解码就把html编码替换成对应的字符`;
