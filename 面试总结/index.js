@@ -1,26 +1,14 @@
-var foo = function (a, b, c) {
-    console.log(a);
-    console.log(b);
-    console.log(c);
-    // console.log(d);
-};
+`
+GET一般用于获取/查询资源信息，而POST一般用于更新资源信息
 
-var arr = [1, 2, 3];
 
-foo(...arr);
+我们看看GET和POST的区别
 
-//数组深拷贝
-var arr2 = arr;
-var arr3 = [...arr];
-console.log(arr === arr2); //true, 说明arr和arr2指向同一个数组
-console.log(arr === arr3); //false, 说明arr3和arr指向不同数组
+　　1. GET提交的数据会放在URL之后，以?分割URL和传输数据，参数之间以&相连，如EditPosts.aspx?name=test1&id=123456.  POST方法是把提交的数据放在HTTP包的Body中.
 
-//把一个数组插入另一个数组字面量
-var arr4 = [...arr, 4, 5, 6];
-console.log(arr4);//[1, 2, 3, 4, 5, 6]
+　　2. GET提交的数据大小有限制（因为浏览器对URL的长度有限制），而POST方法提交的数据没有限制.
 
-//字符串转数组
-var str = 'love';
-var arr5 = [...str];
-console.log(arr5);//[ 'l', 'o', 'v', 'e' ]
+　　3. GET方式需要使用Request.QueryString来取得变量的值，而POST方式通过Request.Form来获取变量的值。
 
+　　4. GET方式提交数据，会带来安全问题，比如一个登录页面，通过GET方式提交数据时，用户名和密码将出现在URL上，如果页面可以被缓存或者其他人可以访问这台机器，就可以从历史记录获得该用户的账号和密码.
+`
