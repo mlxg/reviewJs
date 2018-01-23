@@ -24,3 +24,27 @@ var str = 'love';
 var arr5 = [...str];
 console.log(arr5);//[ 'l', 'o', 'v', 'e' ]
 
+// rest运算符
+
+//主要用于不定参数，所以ES6开始可以不再使用arguments对象
+var bar = function (...args) {
+    for (let el of args) {
+        console.log(el);
+    }
+};
+
+bar(1, 2, 3, 4);
+//1
+//2
+//3
+//4
+
+bar = function (a, ...args) {
+    console.log(a);
+    console.log(args);
+};
+
+bar(1, 2, 3, 4);
+//1
+//[ 2, 3, 4 ]
+

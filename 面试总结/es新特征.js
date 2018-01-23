@@ -14,7 +14,7 @@
     some
     */
 
-    `es6`;
+`es6`;
 
 /*
 lambda表达式
@@ -47,7 +47,7 @@ class Programmer extends Animal {
         super(name);
     }
 
-    program() {
+    static program() {
         console.log('I\'m coding...');
     }
 }
