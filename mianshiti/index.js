@@ -1,32 +1,17 @@
-const name = 'a';
-const json = {
-    name: 'b',
-    jsonName: {
-        name: 'c',
-        getName: function () {
-            this.name
-        }
-
+$.fn.extend({
+    alertWhileClick:function() {
+        $(this).click(function(){
+            alert($(this).val());
+        });
     }
-};
+});
+$("#input1").alertWhileClick();
 
-console.log(json.jsonName.getName())
+// 页面上为$("#input1")为一个jQuery实例，当它调用成员方法 alertWhileClick后，便实现了扩展，每次被点击时它会先弹出目前编辑里的内容。
 
-var arr = [1, 2, 3];
-for (var i = 0, j;i<arr.length; j = arr[i++]) {
-    console.log(j);
-}
-
-console.log('---------');
-console.log(i);
-console.log('---------');
-console.log(j);
-console.log('---------');
-
-var a = 100;
-(function(i){
-    var a=i ;
-    console.log(a);
-})(a);
-
-
+jQuery.extend(object);　//为jQuery类添加类方法，可以理解为添加静态方法
+jQuery.extend({
+    min: function(a, b) { return a < b ? a : b; },
+    max: function(a, b) { return a > b ? a : b; }
+});
+jQuery.min(2,3); //  2

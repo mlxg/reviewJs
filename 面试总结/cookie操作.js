@@ -14,3 +14,10 @@ function clearAllCookie() {
             document.cookie = keys[i] + '=0;expires=' + new Date(0).toUTCString();
     }
 }
+
+//获取
+function getCookie(name) {
+    const arr = document.cookie.match(new RegExp('(^| )' + name + '=([^;]*)(;|$)'));
+    if (arr) console.log(arr[2]);
+    return null;
+}

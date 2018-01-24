@@ -56,7 +56,7 @@
 <script type="text/javascript">
     //全选
     $(document.body).on('click', '#checkedBtn', function () {
-        $('#checkBox').find('input').each(function (i) {
+        $('#checkBox').find('input').each(function () {
             if ($(this).prop('checked')) {//获取是否选中 并判断
                 $(this).prop('checked', false); //修改设置为不选中状态
             } else {

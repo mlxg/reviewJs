@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        ul {
+            margin: 10px;
+            list-style: inside circle;
+            font-weight: bold;
+        }
+
+        li {
+            cursor: pointer;
+        }
+    </style>
+
+
+</head>
+<body>
+<div id="target">
+    Click here
+</div>
+<p>123</p>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+<script>
+    $('#target').click(function () {
+        if ($('p')) {
+            $('p').hide();
+
+        } else {
+            console.log($('p'));
+            // $('p').css('display', 'block');
+            console.log(1);
+            $('p').css('display', 'block');
+        }
+    });
+</script>
+
+</body>
+</html>

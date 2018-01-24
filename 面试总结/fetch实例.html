@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<ul id="ul"></ul>
+<script>
+    const url =
+        'http://apis.map.qq.com/ws/place/v1/suggestion/?keyword=%E7%BE%8E%E9%A3%9F&region=%E5%8C%97%E4%BA%AC&output=json&key=3DSBZ-QV7HS-T7YO7-63ZYW-L4IMK-NSBJD';
+
+    fetch(url, {
+        method: 'GET',
+        mode: 'cors',//跨域
+        redirect: 'follow',
+        headers: new Headers({
+            'Content-Type': 'application/x-www-form-urlencoded',
+        }),
+        // body:'a=b'
+    }).then(function (res) {
+        return res.json();
+    }).then(function (data) { /* handle response */
+        let newAdd = [];
+        for (let i of data.data) {
+            newAdd += `<li><span>${i.title}</span>的地址是${i.address}</li>`;
+        }
+        document.getElementById('ul').innerHTML = newAdd;
+    });
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<ul class="foo">
+    <li> index = 0</li>
+    <li> index = 1</li>
+    <ul>
+        <li> index = 2</li>
+    </ul>
+    <li> index = 3</li>
+</ul>
+<li>123</li>
+
+<label>
+    <input class="inp" type="text" readonly placeholder="123" >
+</label>
+
+<p>Click me!</p>
+
+<div>div (doesn't match since before #prev)</div>
+<span id="prev">span#prev</span>
+<div>div sibling</div>
+
+<div>div sibling <div id="small">div niece</div></div>
+<span>span sibling (not div)</span>
+<div>div sibling</div>
+
+<form method="post" action="">
+    <fieldset>
+        <div>
+            <label for="two">2</label>
+            <input type="checkbox" value="2" id="two" name="number[]" checked>
+        </div>
+        <div>
+            <label for="four">4</label>
+            <input type="checkbox" value="4" id="four" name="number[]">
+        </div>
+        <div>
+            <label for="six">6</label>
+            <input type="checkbox" value="6" id="six" name="number[]">
+        </div>
+        <div>
+            <label for="eight">8</label>
+            <input type="checkbox" value="8" id="eight" name="number[]">
+        </div>
+    </fieldset>
+</form>
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+<script type="text/javascript">
+    $('.inp').on('click', function () {
+        $(this).css('color', 'red').val("done!");
+    });
+
+    $("#prev").find("~ div").css('color', 'red');
+
+    $("body").delegate("p", "click", function(){
+        $(this).after("<p>Another paragraph!</p>");
+    });
+
+    $(':checkbox').map(function() {
+        return this.id;
+    }).get().join()
+</script>
+</body>
+</html>
