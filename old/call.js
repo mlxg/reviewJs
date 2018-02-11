@@ -1,16 +1,18 @@
 /**
  * Created by Rhee on 2017/5/26.
  */
+const user = {
+    name: 'Rahul Mhatre',
+    whatIsYourName: function () {
+        console.log(this.name);
+    }
+};
+user.whatIsYourName();
+const call = {
+    name: 'Neha Sampat'
+};
+user.whatIsYourName.call(call);
 
-function foo(a, b) {
-    var c = a * b
-    return c
-
-}
-
-// var e = foo.apply(e, [10, 2, 3])
-// ==========================
 
 
 
-var d = foo.call(d, 10, 2)

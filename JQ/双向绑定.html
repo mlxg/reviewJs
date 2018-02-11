@@ -42,7 +42,7 @@
         $('p').empty();
     });
 
-    const debounce = (fn, duration) => {
+    const debounce = (fn, duration) => {//函数节流
         let timer = null;
         return () => {
             clearTimeout(timer);

@@ -1,16 +1,16 @@
 const fs = require('fs');
 
-const getData = function(fileName){
-    return new Promise(function(resolve, reject){
-        fs.readFile(fileName, {encoding: 'utf8'}, function(err, data){
-            if(err) throw Error('fail');
+const getData = function (fileName) {
+    return new Promise(function (resolve, reject) {
+        fs.readFile(fileName, {encoding: 'utf8'}, function (err, data) {
+            if (err) throw Error('fail');
             resolve(data);
-        })
+        });
     });
-}
+};
 
-const g = function* (){
-    try{
+const g = function* () {
+    try {
         let dataA = yield getData('a.txt');  // yield 在暂停时刻并没有赋值，dataA 的值是在重新执行时刻由 next 方法的参数传入的
         console.log('dataA is %d', dataA);
         let dataB = yield getData('b.txt');
@@ -19,13 +19,13 @@ const g = function* (){
         console.log('dataC is %d', dataC);
 
         console.log('sum is %d', parseInt(dataA) + parseInt(dataB) + parseInt(dataC));
-    }catch(err){
+    } catch (err) {
         console.log(err);
     }
 };
 
 // 驱动 Generator 执行
-function run (generator) {
+function run(generator) {
     let it = generator();
 
     function go(result) {

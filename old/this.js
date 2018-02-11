@@ -47,6 +47,7 @@ Cat.prototype = {
         console.log(this.food);
     }
 };
+console.log(typeof Cat)
 
 const b = new Cat();
 b.say();

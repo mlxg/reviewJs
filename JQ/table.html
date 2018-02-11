@@ -56,9 +56,9 @@
 <script type="text/javascript">
     //全选
     $(document.body).on('click', '#checkedBtn', function () {
-        $('#checkBox').find('input').each(function () {
+        $('#checkBox').find('input[type=checkbox]').each(function () {
             if ($(this).prop('checked')) {//获取是否选中 并判断
-                $(this).prop('checked', false); //修改设置为不选中状态
+                $(this).prop('checked', true); //修改设置为不选中状态
             } else {
                 $(this).prop('checked', true);//修改设置为选中状态
             }
@@ -67,8 +67,8 @@
 
     //获取已选内容
     $(document.body).on('click', '#selectBtn', function () {
-        let dom = '复选框<hr/>';
-        $('#checkBox').find('input').each(function (i) {
+        let dom = '复选框<br/>';
+        $('#checkBox').find('input').each(function () {
             if ($(this).prop('checked')) {
                 dom += $(this).val() + ' ' + $(this).attr('data-par');
             }

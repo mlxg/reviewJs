@@ -5,90 +5,44 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
+
+    <title></title>
+    <style>
+        .outer {
+            border: 1px solid black;
+            width: auto;
+            /*  overflow: hidden;
+              zoom: 1;*/
+            float: left;
+        }
+
+        .inner {
+            width: 50px;
+            height: 50px;
+            background-color: #ff4400;
+            margin-right: 20px;
+            float: left;
+        }
+
+        .footer {
+            background-color: #005FC3;
+            width: 200px;
+            height: 100px;
+        }
+
+        /*.outer:after{
+            content: '';
+            display: block;
+            clear: both;
+        }*/
+    </style>
+
 <body>
-<fieldset id="checkBox">
-    <legend>复选框</legend>
-    ————爱 好：
-    <label><input type="checkbox" name="" id="" value="1" data-par="上网"/>上网，</label>
-    <label><input type="checkbox" name="" id="" value="2" data-par="购物"/>购物，</label>
-    <label><input type="checkbox" name="" id="" value="3" data-par="玩游戏"/>玩游戏，</label>
-    <label><input type="checkbox" name="" id="" value="4" data-par="打球"/>打球，</label>
-    <label><input type="checkbox" name="" id="" value="5" data-par="旅游"/>旅游，</label>
-    <label><input type="checkbox" name="" id="" value="6" data-par="看电影"/>看电影，</label>
-    <label><input type="checkbox" name="" id="" value="7" data-par="旅游"/>旅游，</label>
-    <label><input type="checkbox" name="" id="" value="8" data-par="聊天"/>聊天，</label>
-    <label><input type="checkbox" name="" id="" value="9" data-par="听音乐"/>听音乐，</label>
-    <label><input type="checkbox" name="" id="" value="10" data-par="敲代码"/>敲代码</label>
-    <input type="button" id="checkedBtn" value="全 选"/>
-</fieldset>
-
-
-<fieldset id="radioBox">
-    <legend>单选框</legend>
-
-    ————性 别：
-    <label><input type="radio" name="single" id="" value="1" data-sex="先生"/>先生，</label>
-    <label><input type="radio" name="single" id="" value="2" data-sex="女士"/>女士</label>
-    <label><input type="radio" name="single" id="" value="3" data-sex="人妖"/>人妖</label>
-    <label><input type="radio" name="single" id="" value="4" data-sex="其他"/>其他</label>
-
-
-    ————下拉列表：
-    <label for="selectBox"></label><select id="selectBox">
-    <option value="0" selected>--请选择--</option>
-    <option value="1">先生</option>
-    <option value="2">女士</option>
-    <option value="3">人妖</option>
-    <option value="4">其他</option>
-</select>
-</fieldset>
-
-
-<fieldset>
-    <legend>已选内容</legend>
-    <section id="selectBok"></section>
-    <input type="button" id="selectBtn" value="查看已选"/>
-</fieldset>
-
-<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
-<script type="text/javascript">
-    //全选
-    $(document.body).on('click', '#checkedBtn', function () {
-        $('#checkBox').find('input').each(function (i) {
-            if ($(this).prop('checked')) {//获取是否选中 并判断
-                $(this).prop('checked', false); //修改设置为不选中状态
-            } else {
-                $(this).prop('checked', true);//修改设置为选中状态
-            }
-        });
-    });
-
-    //获取已选内容
-    $(document.body).on('click', '#selectBtn', function () {
-        let dom = '复选框<hr/>';
-        $('#checkBox').find('input').each(function (i) {
-            if ($(this).prop('checked')) {
-                dom += $(this).val() + ' ' + $(this).attr('data-par');
-            }
-        });
-
-        dom += '<br/>单选框<hr/>';
-
-        $('#radioBox').find('input').each(function (i) {
-            if ($(this).prop('checked')) {
-                dom += $(this).val() + ' ' + $(this).attr('data-sex');
-            }
-        });
-
-        dom += '<br/>下拉框<hr/>';
-
-        dom += $('#selectBox').find('option:selected').val() + ' ' + $('#selectBox').find('option:selected').text();
-
-        $('#selectBok').html(dom);
-    });
-
-</script>
+<div class="outer">
+    <div class="inner"></div>
+    <div class="inner"></div>
+    <div class="inner"></div>
+</div>
+<div class="footer"></div>
 </body>
 </html>

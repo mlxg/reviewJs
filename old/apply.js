@@ -14,7 +14,7 @@ function bar() {
 
 // foo.bar()
 
-bar.call(foo)
+console.log(bar.call(foo))
 
 // ---------------------------apply模拟
 

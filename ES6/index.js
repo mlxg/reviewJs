@@ -1,32 +1,7 @@
-class JuejinFrontendEngineerSpecification implements Specification {
-    isSatisfiedBy(person) {
-        return person.isInteresting() && person.canWriteBUG();
-    }
-}
+var p = '';
 
-class JuejinFrontendEngineer extends FrontendEngineer {
-    constructor(person) {
-        super(person);
-        this.thingList = [
-            'ES6+',
-            'Node.js v8+',
-            'Vue.js v2+',
-            'SSR',
-            'Chrome (Extension|Headless)',
-            'Weixin',
-            'Docker',
-            'rm -rf /',
-            'escape'
-        ];
-    }
+console.log(p); //null
 
-    doSomeInterestingThings() {
-        this.thingList.forEach(this.tryToPlay.bind(this));
-    }
-}
+typeof p ; // "object"
 
-const juejinFrontendEngineerSpecification = new JuejinFrontendEngineerSpecification();
-
-if (JuejinFrontendEngineerSpecification.isSatisfiedBy(you)) {
-    new JuejinFrontendEngineer(you).doSomeInterestingThings();
-}
+typeof null; // "object"

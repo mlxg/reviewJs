@@ -15,7 +15,7 @@ function clearAllCookie() {
     }
 }
 
-//获取
+//获取cookie
 function getCookie(name) {
     const arr = document.cookie.match(new RegExp('(^| )' + name + '=([^;]*)(;|$)'));
     if (arr) console.log(arr[2]);
